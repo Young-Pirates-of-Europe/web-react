@@ -1,26 +1,117 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+    --color-dark: #000000;
+    --color-link: #2a7ae2;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@layer utilities {
+    .max-w-responsive {
+        @apply md:max-w-3xl lg:max-w-screen-lg xl:max-w-7xl xl:min-w-[42rem] mx-auto;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@layer components {
+    .card-style {
+        @apply flex flex-col items-center justify-center text-center w-full lg:aspect-square h-auto rounded bg-white p-4 md:p-6 shadow-sm transition hover:shadow-md;
+    }
+
+    .board-card-style {
+        @apply flex flex-col items-center justify-center text-center w-full lg:aspect-square h-auto rounded p-4 transition;
+    }
+
+    .sub-text {
+        @apply font-light
+    }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.font-din-condensed {
+    font-family: 'DINish Condensed', sans-serif;
+}
+
+.font-din-expanded {
+    font-family: 'DINish Expanded', sans-serif;
+}
+
+@font-face {
+    font-family: 'DINish Condensed';
+    src: url('/fonts/DinishCondensed/DinishCondensed-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINish Condensed';
+    src: url('/fonts/DinishCondensed/DinishCondensed-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINish Condensed';
+    src: url('/fonts/DinishCondensed/DinishCondensed-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINish Expanded';
+    src: url('/fonts/DinishExpanded/DinishExpanded-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINish Expanded';
+    src: url('/fonts/DinishExpanded/DinishExpanded-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINish Expanded';
+    src: url('/fonts/DinishExpanded/DinishExpanded-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@layer utilities {
+    .font-dinishCondensed {
+        font-family: 'DINish Condensed', sans-serif;
+    }
+
+    .font-dinishExpanded {
+        font-family: 'DINish Expanded', sans-serif;
+    }
+}
+
+.header-link {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+* {
+    scroll-behavior: smooth;
+    scroll-margin-top: 6rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'DINish Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: clamp(2rem, 5vw, 2.5rem);
+    }
 }
