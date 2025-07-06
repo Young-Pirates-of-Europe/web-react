@@ -11,6 +11,7 @@ export function DocumentCard({ title, description, linkLabel, href }: DocumentEn
             <h3 className="text-xl font-bold text-gray-700 mb-2">{title}</h3>
             <p className="text-gray-600 sub-text mb-4">{description}</p>
             <a
+                target="_blank"
                 href={href}
                 className="text-sm text-link hover:underline hover:text-semibold transition"
             >

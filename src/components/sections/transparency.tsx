@@ -6,14 +6,14 @@ const documents: DocumentEntry[] = [
         description:
             'This document serves to set goals and milestones for Young Pirates of Europe for their future board term. Each action plan is structured for a year, copying the duration of the mandate of the board.',
         linkLabel: 'VIEW CURRENT ACTION PLAN',
-        href: 'https://cloud.partipirate.org/index.php/s/qHSQpCaedaB7tSF',
+        href: 'https://cloud.partipirate.org/s/SKRcymCZd4gsSrZ?dir=/&openfile=true',
     },
     {
         title: 'ANNUAL REVIEW',
         description:
             'This review summarises all activities of the board during their term and evaluates their completion or difficulties in the process. This document primarily reflects the goals set in the action plan.',
         linkLabel: 'VIEW CURRENT ANNUAL REVIEW',
-        href: 'https://cloud.partipirate.org/index.php/s/k97rAyiS9gi4bWw',
+        href: 'https://cloud.partipirate.org/s/YW7znTrcEwGEFK5?dir=/&openfile=true',
     },
     {
         title: 'FINANCIALS',
@@ -41,7 +41,7 @@ const documents: DocumentEntry[] = [
         description:
             'All other documents or materials of the association can be found here.',
         linkLabel: 'VIEW ARCHIVE',
-        href: '#transparency',
+        href: 'https://cloud.partipirate.org/s/XCfAo9YJ7EWAcSB',
     },
 ];
 
