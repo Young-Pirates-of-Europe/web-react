@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
         <Head>
             <title>Young Pirates of Europe</title>
+            <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.ico`}/>
             <meta
                 name="description"
                 content="Young Pirates of Europe brings together political youth organisations in Europe focused on digital rights, transparency, democracy, and civil liberties."
