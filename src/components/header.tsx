@@ -26,8 +26,11 @@ export default function Header() {
         <header className="sticky top-0 z-50 bg-black text-white p-4 shadow">
             <div className="max-w-screen-xl mx-auto flex items-center justify-between">
                 <div className="flex flex-row items-center gap-3">
-                    <img src="/general/YPE.png" alt="logo"
-                         className="h-8 md:h-14"/>
+                    <img
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/general/YPE.png`}
+                        alt="logo"
+                        className="h-8 md:h-14"
+                    />
                     <a
                         href="#hero"
                         className="text-lg md:text-3xl md:text-xl font-bold leading-tight uppercase"
@@ -38,7 +41,7 @@ export default function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex gap-6">
-                    {links.map((link) => (
+                {links.map((link) => (
                         <a key={link.href} className={`header-link font-din-condensed text-xl transition-colors md:text-lg  ${
                             hash === link.href ? "underline underline-offset-4" : ""
                         }`} href={link.href}>

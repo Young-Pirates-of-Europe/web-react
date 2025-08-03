@@ -10,7 +10,7 @@ export function BoardCard({member}: BoardCardProps) {
         <article className="board-card-style">
 
             <Image
-                src={member.image}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}${member.image}`}
                 alt={member.name}
                 width={0}
                 height={0}

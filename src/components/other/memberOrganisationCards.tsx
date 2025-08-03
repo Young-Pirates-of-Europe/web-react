@@ -24,7 +24,7 @@ const MemberCard = ({org}: MemberCardProps) => {
         <article className="card-style">
             <div className="flex flex-1 items-center justify-center">
                 <Image
-                    src={org.image}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}${org.image}`}
                     alt={org.name}
                     width={200}
                     height={200}
