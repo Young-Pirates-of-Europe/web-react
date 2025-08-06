@@ -72,7 +72,7 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
         env:
-          NEXT_PUBLIC_BASE_PATH: /
+          NEXT_PUBLIC_BASE_PATH: ""
           NODE_ENV: production
       - name: Add .nojekyll for GH Pages
         run: echo "" > out/.nojekyll
