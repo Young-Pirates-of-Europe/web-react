@@ -6,42 +6,35 @@ const documents: DocumentEntry[] = [
         description:
             'This document serves to set goals and milestones for Young Pirates of Europe for their future board term. Each action plan is structured for a year, copying the duration of the mandate of the board.',
         linkLabel: 'VIEW CURRENT ACTION PLAN',
-        href: 'https://cloud.partipirate.org/s/T67itS5eRTPdJgn',
+        href: 'https://cloud.partipirate.org/s/TTXNqyWJKpGPT3g',
     },
     {
         title: 'ANNUAL REVIEW',
         description:
             'This review summarises all activities of the board during their term and evaluates their completion or difficulties in the process. This document primarily reflects the goals set in the action plan.',
         linkLabel: 'VIEW CURRENT ANNUAL REVIEW',
-        href: 'https://cloud.partipirate.org/s/9PPwJAHbRijykCq',
+        href: 'https://cloud.partipirate.org/s/qSLZgF552L5Qffg',
     },
     {
         title: 'FINANCIALS',
         description:
             'All documents surrounding the financing of this association are grouped here. This primarily consists of proposed budgets and closing budgets.',
         linkLabel: 'VIEW CURRENT FINANCIALS',
-        href: 'https://cloud.partipirate.org/s/wYqc58mgFCZFEYD',
+        href: 'https://cloud.partipirate.org/s/qQF44zLctiTXQ73',
     },
     {
         title: 'STATUTES',
         description:
             'Main rules of the association which consists of setting primary bodies of the association and its powers.',
         linkLabel: 'VIEW CURRENT STATUTES',
-        href: 'https://cloud.partipirate.org/s/q4gcwmQyagbeGWb?dir=/&openfile=true',
-    },
-    {
-        title: 'IROP',
-        description:
-            'Internal Rules of Procedures expand the scope of the statutes and further specify the functioning of the association.',
-        linkLabel: 'VIEW CURRENT IROP',
-        href: '#transparency',
+        href: 'https://cloud.partipirate.org/s/BRrezrA6cgXeLFp',
     },
     {
         title: 'ARCHIVE',
         description:
             'All other documents or materials of the association can be found here.',
         linkLabel: 'VIEW ARCHIVE',
-        href: 'https://cloud.partipirate.org/s/XCfAo9YJ7EWAcSB',
+        href: 'https://cloud.partipirate.org/s/nixKNBAByTgWLH4',
     },
 ];
 

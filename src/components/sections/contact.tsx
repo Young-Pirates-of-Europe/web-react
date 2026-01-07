@@ -36,6 +36,10 @@ export default function Contact() {
                                     title: "ID",
                                     content: "F10614 registered in R.C.S Luxembourg",
                                 },
+                                {
+                                    title: "EMAIL",
+                                    content: "info@young-pirates.eu"
+                                }
                             ].map(({title, content}) => (
                                 <div key={title} className="space-y-1">
                                     <h3 className="font-semibold text-sm uppercase tracking-wide">
