@@ -38,7 +38,7 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         image: '/members/germany.png',
         logoAspectRation: '3/2',
         email: 'koordination@jungepiraten.de',
-        active: false
+        active: true
     },
 
     [YPEAssociation.MLADE_PIRATSTVO]: {
@@ -72,7 +72,7 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         image: '/members/iceland.png',
         logoAspectRation: '3/2',
         email: 'up@piratar.is',
-        active: false
+        active: true
     },
 
     [YPEAssociation.JEUNES_PIRATES]: {
