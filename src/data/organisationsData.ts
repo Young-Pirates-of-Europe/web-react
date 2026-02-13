@@ -45,12 +45,12 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         country: 'Czech Republic',
         name: 'Mladé Pirátstvo',
         website: 'https://mladi.pirati.cz/',
-        facebook: 'https://www.facebook.com/search/top?q=mlad%C3%A9%20pir%C3%A1tstvo',
+        facebook: 'https://www.facebook.com/mladepiratstvo/',
         instagram: 'https://www.instagram.com/mlade.piratstvo/',
         twitter: 'https://twitter.com/MPiratstvo',
         image: '/members/czech.png',
         logoAspectRation: '3/2',
-        email: 'mladi@pirati.com',
+        email: 'mladepiratstvo@pirati.cz',
         active: true
     },
 
