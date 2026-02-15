@@ -36,4 +36,16 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         country: "Slovenia",
         image: "/board/Hans.png"
     },
+    "Aeolus Vrbická": {
+        name: 'Aeolus Vrbická ',
+        role: "Board Member",
+        country: "Czech Republic",
+        image: "/board/Aeolus.jpeg"
+    },
+    "Barbora Flanderková": {
+        name: 'Barbora Flanderková',
+        role: "Board Member",
+        country: "Czech Republic",
+        image: "/board/Maija.png"
+    },
 };
