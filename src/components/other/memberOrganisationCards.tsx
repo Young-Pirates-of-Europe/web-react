@@ -1,7 +1,7 @@
 import {YPEOrg} from "@/interfaces/organisations";
 import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFacebook, faInstagram, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faInstagram, faMastodon, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {SocialLink} from "@/interfaces/general";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons/faEnvelope";
@@ -17,6 +17,7 @@ const MemberCard = ({org}: MemberCardProps) => {
         {url: org.instagram, icon: faInstagram, label: "Instagram"},
         {url: org.twitter, icon: faXTwitter, label: "Twitter"},
         {url: org.youtube, icon: faYoutube, label: "YouTube"},
+        {url: org.mastodon, icon: faMastodon, label: "Mastodon"},
         org.email ? {url: `mailto:${org.email}`, icon: faEnvelope, label: "E-mail"} : null
     ].filter((s): s is SocialLink => Boolean(s?.url));
 
