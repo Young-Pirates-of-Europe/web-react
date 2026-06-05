@@ -13,6 +13,7 @@ export default function Document() {
             <meta charSet="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link rel="canonical" href="https://young-pirates.eu/"/>
+            <link href="https://piraten-partei.social/@piranhas" rel="me"/>
 
             {/* Open Graph */}
             <meta property="og:title" content="Young Pirates of Europe"/>

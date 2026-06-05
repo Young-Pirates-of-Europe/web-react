@@ -33,7 +33,7 @@ export default function Header() {
                     />
                     <a
                         href="#hero"
-                        className="text-lg md:text-3xl md:text-xl font-bold leading-tight uppercase"
+                        className="font-din-condensed text-lg md:text-3xl md:text-xl font-bold leading-tight uppercase"
                     >
                         Young Pirates<br/>of Europe
                     </a>

@@ -34,7 +34,7 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         name: 'Junge Piraten',
         website: 'https://jungepiraten.de/',
         instagram: 'https://www.instagram.com/jungepiratende/',
-        mastodon: 'https://mastodon.online/@jungepiraten',
+        mastodon: 'https://piraten-partei.social/@piranhas',
         image: '/members/germany.png',
         logoAspectRation: '3/2',
         email: 'koordination@jungepiraten.de',
