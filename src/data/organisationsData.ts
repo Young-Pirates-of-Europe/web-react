@@ -72,17 +72,7 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         image: '/members/iceland.png',
         logoAspectRation: '3/2',
         email: 'up@piratar.is',
-        active: true
-    },
-
-    [YPEAssociation.JEUNES_PIRATES]: {
-        country: 'France',
-        name: 'Jeunes Pirates',
-        website: 'https://wiki.partipirate.org/Jeunes_Pirates',
-        image: '/members/france.png',
-        logoAspectRation: '3/2',
-        email: 'jeunespirates@partipirate.org',
-        active: true
+        active: false
     },
 
     [YPEAssociation.PIRAATTINUORET]: {
