@@ -1,5 +1,4 @@
 export enum YPEAssociation {
-    JEUNES_PIRATES      = 'Jeunes Pirates',
     JONK_PIRATEN        = 'Jonk Piraten',
     JUNGE_PIRATEN       = 'Junge Piraten',
     MLADE_PIRATSTVO     = 'Mladé Pirátstvo',
