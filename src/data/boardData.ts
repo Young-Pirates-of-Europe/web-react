@@ -28,7 +28,7 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         name: 'Anna Marie Lišková',
         role: "Executive Board Member",
         country: "Czech Republic",
-        image: "/board/Anna.jpg"
+        image: "/board/Anna.jpeg"
     },
     "Leo Pižent": {
         name: 'Leo Pižent',
@@ -46,6 +46,6 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         name: 'Marek Šubr',
         role: "Board Member",
         country: "Czech Republic",
-        image: "/board/Marek.jpg"
+        image: "/board/Marek.jpeg"
     },
 };
