@@ -6,15 +6,15 @@ type NewsItem = {
 const newsItems: NewsItem[] = [
     {
         date: '16. 2. 2025',
-        content: 'EPIC registration is open! Ask your local YPE representative for more information.',
+        content: 'EPIC has just elected a new board! Check them out down below and on our Instagram.',
     },
     {
         date: '9. 1. 2025',
-        content: 'New POLWG subgroup on agriculture and fisheries starts soon! Ask in comms chat for an invite.',
+        content: 'POLWG is working on a principles program! Ask in comms chat for an invite.',
     },
     {
         date: '16. 2. 2025',
-        content: 'EPIC registration is open! Ask your local YPE representative for more information.',
+        content: 'October 18-24 is Invisible Disabilities Week! Remember that not every disability is immediately apparent.',
     },
 ];
 
