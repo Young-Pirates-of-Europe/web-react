@@ -34,7 +34,7 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         name: 'Leo Pižent',
         role: "Executive Board Member",
         country: "Slovenia",
-        image: "/board/Leo.png"
+        image: "/board/Leo.jpg"
     },
     "Aeolus Vrbický": {
         name: 'Aeolus Vrbický',
