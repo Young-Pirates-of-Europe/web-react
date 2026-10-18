@@ -6,35 +6,35 @@ export interface YPEBoardMember {
 }
 
 export const ypeBoard: Record<string, YPEBoardMember> = {
-    "Vid Bukovec": {
-        name: 'Vid Bukovec',
-        role: "President",
-        country: "Slovenia",
-        image: "/board/Vid.png"
+    "Barbora Flanderkova": {
+        name: 'Barbora Flandekova',
+        role: "Chairperson",
+        country: "Czech Republic",
+        image: "/board/Barbora.png"
     },
-    "Maija Raudaskoski": {
-        name: 'Maija Raudaskoski',
-        role: "Secretary General",
-        country: "Finland",
-        image: "/board/Maija.png"
+    "Miha Makše": {
+        name: 'Miha Makše',
+        role: "Vice-Chairperson",
+        country: "Slovenia",
+        image: "/board/Miha.png"
     },
     "Eliott-Spencer Hjaltalín": {
         name: 'Eliott-Spencer Hjaltalín',
-        role: "Treasurer",
-        country: "Iceland",
+        role: "Executive Board Member",
+        country: "",
         image: "/board/Elliot.jpg"
     },
-    "Max Werner": {
-        name: 'Max Werner',
-        role: "Board Member",
-        country: "Sweden",
-        image: "/board/Maija.png"
+    "Anna Marie Lišková": {
+        name: 'Anna Marie Lišková',
+        role: "Executive Board Member",
+        country: "Czech Republic",
+        image: "/board/Anna.png"
     },
-    "Matej Ahačič": {
-        name: 'Matej Ahačič',
-        role: "Board Member",
+    "Leo Pižent": {
+        name: 'Leo Pižent',
+        role: "Executive Board Member",
         country: "Slovenia",
-        image: "/board/Hans.png"
+        image: "/board/Leo.png"
     },
     "Aeolus Vrbická": {
         name: 'Aeolus Vrbická ',
@@ -42,10 +42,10 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         country: "Czech Republic",
         image: "/board/Aeolus.jpeg"
     },
-    "Barbora Flanderková": {
-        name: 'Barbora Flanderková',
+    "Marek Šubr": {
+        name: 'Marek Šubr',
         role: "Board Member",
         country: "Czech Republic",
-        image: "/board/Maija.png"
+        image: "/board/Marek.png"
     },
 };
