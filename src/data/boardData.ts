@@ -6,8 +6,8 @@ export interface YPEBoardMember {
 }
 
 export const ypeBoard: Record<string, YPEBoardMember> = {
-    "Barbora Flanderkova": {
-        name: 'Barbora Flandekova',
+    "Barbora Flanderková": {
+        name: 'Barbora Flandeková',
         role: "Chairperson",
         country: "Czech Republic",
         image: "/board/Barbora.png"
@@ -36,8 +36,8 @@ export const ypeBoard: Record<string, YPEBoardMember> = {
         country: "Slovenia",
         image: "/board/Leo.png"
     },
-    "Aeolus Vrbická": {
-        name: 'Aeolus Vrbická ',
+    "Aeolus Vrbicky": {
+        name: 'Aeolus Vrbicky ',
         role: "Board Member",
         country: "Czech Republic",
         image: "/board/Aeolus.jpeg"
