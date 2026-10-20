@@ -5,15 +5,15 @@ type NewsItem = {
 
 const newsItems: NewsItem[] = [
     {
-        date: '16. 2. 2025',
+        date: '12. 10. 2026',
         content: 'EPIC has just elected a new board! Check them out down below and on our Instagram.',
     },
     {
-        date: '9. 1. 2025',
+        date: '14. 10. 2026',
         content: 'POLWG is working on a principles program! Ask in comms chat for an invite.',
     },
     {
-        date: '16. 2. 2025',
+        date: '18. 10. 2026',
         content: 'October 18-24 is Invisible Disabilities Week! Remember that not every disability is immediately apparent.',
     },
 ];
