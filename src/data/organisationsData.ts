@@ -72,7 +72,7 @@ export const YPEOrganisations: Record<YPEAssociation, YPEOrg> = {
         image: '/members/iceland.png',
         logoAspectRation: '3/2',
         email: 'up@piratar.is',
-        active: false
+        active: true
     },
 
     [YPEAssociation.PIRAATTINUORET]: {
